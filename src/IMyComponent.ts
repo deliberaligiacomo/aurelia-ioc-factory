@@ -1,4 +1,4 @@
 export interface IMyComponent {
     name: string;
-    log: () => void;
+    log: (sender: string, message: string) => void;
 }
