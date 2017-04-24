@@ -12,7 +12,6 @@
     "aurelia-bootstrapper": "^1.0.0",
     "aurelia-fetch-client": "^1.1.2",
     "bluebird": "^3.4.1",
-    "msa-controls": "file:///C:\\code\\tfvc\\adam-factory\\Development\\Products\\Msa\\ToolBox\\Tools\\Msa.Apps.Tools.Aurelia.Components\\app\\dist\\msa-controls",
     "requirejs": "^2.3.2",
     "text": "github:requirejs/text#latest"
   },

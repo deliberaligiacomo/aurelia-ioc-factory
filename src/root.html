@@ -1,7 +1,12 @@
-<template>  
+<template>
   <p>
-    Root: <input type="text" value.bind="name"/>
+    An example on how to use Inversion Of Control combined with Aurelia ViewCompiler.
+  </p>
+  <p>
+    Root: <input type="text" value.bind="name" />
   </p>
 
-  <component name.two-way="name" log.call="log()"></component>
+  <component name.two-way="name" log.call="log(sender,message)" instance.bind="viewModel" on-databound.call="init()"></component>
+
+  <p innerhtml.bind="history"></p>
 </template>

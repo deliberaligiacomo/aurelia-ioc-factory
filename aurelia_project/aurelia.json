@@ -131,31 +131,6 @@
             "path": "../node_modules/aurelia-testing/dist/amd",
             "main": "aurelia-testing",
             "env": "dev"
-          },
-
-          
-          "jquery",
-          "moment",
-          {
-            "name": "aurelia-kendoui-bridge",
-            "path": "../node_modules/aurelia-kendoui-bridge/dist/amd",
-            "main": "index",
-            "resources": [ "combobox/*.*", "sortable/*.*", "timepicker/*.*", "datepicker/*.*", "grid/*.*", "common/*.*" ]
-          },
-          {
-            "name": "msa-core",
-            "path": "../node_modules/msa-core",
-            "main": "index",
-            "resources":[
-              "*.js",
-              "services/*.js",
-              "models/*.js"
-            ]
-          },
-          {
-            "name": "msa-controls",
-            "path": "../node_modules/msa-controls",
-            "main": "index"
           }
         ]
       }
